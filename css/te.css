@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  .container {
+    padding: 2px;
+    box-sizing: border-box;
+  }
+
+  .header {
+    background-color: #4CAF50; 
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .section {
+    text-align: center;
+    background-color: #FF9800; 
+    padding: 10px;
+    margin: 10px 0;
+  }
+
+  .footer {
+    background-color: #da952d; 
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    
+  }
+
+  
+  @media only screen and (min-width: 768px) {
+    .section {
+      max-width: 768px;
+      margin: 0 auto;
+    }
+  }
